@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="470" viewBox="0 0 1600 470" role="img"><title>The Canonkeeper audit workflow</title>
+<rect width="1600" height="470" fill="#F6F2E9"/>
+<text x="65" y="42" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="46" font-weight="700" fill="#182C35">From chapter text to reviewable notes.</text>
+<rect x="65" y="155" width="270" height="180" rx="14" fill="#FFFFFF"/>
+<text x="87" y="178" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#267C72">01</text>
+<text x="87" y="222" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#182C35">Scope</text>
+<text x="87" y="280" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#52656C">Order + hashes</text>
+<polyline points="341,245 361,245" fill="none" stroke="#267C72" stroke-width="4"/>
+<polyline points="349,236 361,245 349,254" fill="none" stroke="#267C72" stroke-width="4"/>
+<rect x="367" y="155" width="270" height="180" rx="14" fill="#FFFFFF"/>
+<text x="389" y="178" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#267C72">02</text>
+<text x="389" y="222" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#182C35">Read</text>
+<text x="389" y="280" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#52656C">Full passages</text>
+<polyline points="643,245 663,245" fill="none" stroke="#267C72" stroke-width="4"/>
+<polyline points="651,236 663,245 651,254" fill="none" stroke="#267C72" stroke-width="4"/>
+<rect x="669" y="155" width="270" height="180" rx="14" fill="#FFFFFF"/>
+<text x="691" y="178" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#267C72">03</text>
+<text x="691" y="222" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#182C35">Ledger</text>
+<text x="691" y="280" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#52656C">Facts + citations</text>
+<polyline points="945,245 965,245" fill="none" stroke="#267C72" stroke-width="4"/>
+<polyline points="953,236 965,245 953,254" fill="none" stroke="#267C72" stroke-width="4"/>
+<rect x="971" y="155" width="270" height="180" rx="14" fill="#FFFFFF"/>
+<text x="993" y="178" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#267C72">04</text>
+<text x="993" y="222" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#182C35">Reconcile</text>
+<text x="993" y="280" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#52656C">Later evidence</text>
+<polyline points="1247,245 1267,245" fill="none" stroke="#267C72" stroke-width="4"/>
+<polyline points="1255,236 1267,245 1255,254" fill="none" stroke="#267C72" stroke-width="4"/>
+<rect x="1273" y="155" width="270" height="180" rx="14" fill="#FFFFFF"/>
+<text x="1295" y="178" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#267C72">05</text>
+<text x="1295" y="222" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#182C35">Report</text>
+<text x="1295" y="280" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#52656C">Labels + repairs</text>
+<text x="65" y="385" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#52656C">The author decides what becomes canon. The manuscript stays unchanged.</text>
+</svg>

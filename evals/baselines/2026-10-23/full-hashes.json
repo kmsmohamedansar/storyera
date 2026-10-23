@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA-256",
+  "source_root": ".",
+  "method": "Before hashes were independently computed from source bytes before the audit; after hashes were independently recomputed from source bytes after the audit. Manuscript files were only read.",
+  "files": [
+    {
+      "path": "examples/manuscript/01.md",
+      "before": "0ae1241dbb1f7d2d4fb66fdfd0601e22af7399577fbd6dea9b34f8afdfdd3229",
+      "after": "0ae1241dbb1f7d2d4fb66fdfd0601e22af7399577fbd6dea9b34f8afdfdd3229"
+    },
+    {
+      "path": "examples/manuscript/02.md",
+      "before": "95376c708739b18a8627cdb43c637126474a5a65ccf710bf4c63b9da47753c68",
+      "after": "95376c708739b18a8627cdb43c637126474a5a65ccf710bf4c63b9da47753c68"
+    },
+    {
+      "path": "examples/manuscript/03.md",
+      "before": "286807f67bf8323e0446d4d9cb15fc17ba8a6c0661a1ff36d8213e2bab5832e8",
+      "after": "286807f67bf8323e0446d4d9cb15fc17ba8a6c0661a1ff36d8213e2bab5832e8"
+    },
+    {
+      "path": "examples/manuscript/04.md",
+      "before": "8f9c09698ac23e5a0165b97ee2b39ba7a56462fa14f3b97ec11771d51fa68142",
+      "after": "8f9c09698ac23e5a0165b97ee2b39ba7a56462fa14f3b97ec11771d51fa68142"
+    }
+  ],
+  "all_unchanged": true
+}

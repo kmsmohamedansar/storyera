@@ -1,0 +1,16 @@
+{
+  "algorithm": "SHA-256",
+  "before": {
+    "skills/canonkeeper/SKILL.md": "93eec1fae98f3a12c53aaba40ad2d79e6b455cce145ce9c39e2de7c2b8582a3d",
+    "skills/canonkeeper/references/report-format.md": "6566683392fe0eb780a28414c7a15519d2cc4b49ad8cf76b0e6e365f744875df",
+    "examples/manuscript/01.md": "0ae1241dbb1f7d2d4fb66fdfd0601e22af7399577fbd6dea9b34f8afdfdd3229",
+    "examples/manuscript/02.md": "95376c708739b18a8627cdb43c637126474a5a65ccf710bf4c63b9da47753c68"
+  },
+  "after": {
+    "skills/canonkeeper/SKILL.md": "93eec1fae98f3a12c53aaba40ad2d79e6b455cce145ce9c39e2de7c2b8582a3d",
+    "skills/canonkeeper/references/report-format.md": "6566683392fe0eb780a28414c7a15519d2cc4b49ad8cf76b0e6e365f744875df",
+    "examples/manuscript/01.md": "0ae1241dbb1f7d2d4fb66fdfd0601e22af7399577fbd6dea9b34f8afdfdd3229",
+    "examples/manuscript/02.md": "95376c708739b18a8627cdb43c637126474a5a65ccf710bf4c63b9da47753c68"
+  },
+  "unchanged": true
+}

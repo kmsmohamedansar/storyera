@@ -1,0 +1,165 @@
+{
+  "full": {
+    "read": [
+      "examples/manuscript/01.md",
+      "examples/manuscript/02.md",
+      "examples/manuscript/03.md",
+      "examples/manuscript/04.md"
+    ],
+    "unread": [],
+    "cases": [
+      {
+        "id": "key",
+        "classification": "contradiction",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "only brass key in her left"
+          },
+          {
+            "path": "examples/manuscript/02.md",
+            "text": "from her right coat pocket"
+          }
+        ]
+      },
+      {
+        "id": "passengers",
+        "classification": "contradiction",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "exactly three passengers"
+          },
+          {
+            "path": "examples/manuscript/03.md",
+            "text": "exactly four passengers"
+          }
+        ]
+      },
+      {
+        "id": "cohorts",
+        "classification": "contradiction",
+        "anchors": [
+          {
+            "any_of": [
+              {
+                "path": "examples/manuscript/01.md",
+                "text": "four evacuees already sent north"
+              },
+              {
+                "path": "examples/manuscript/02.md",
+                "text": "same four evacuees sent north, all still absent"
+              }
+            ]
+          },
+          {
+            "path": "examples/manuscript/03.md",
+            "text": "neither child was among"
+          },
+          {
+            "path": "examples/manuscript/03.md",
+            "text": "only two remain missing"
+          }
+        ]
+      },
+      {
+        "id": "coat",
+        "classification": "explained_change",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "Ivo wore a red coat"
+          },
+          {
+            "path": "examples/manuscript/02.md",
+            "text": "replaced it with a blue coat"
+          }
+        ]
+      },
+      {
+        "id": "identity",
+        "classification": "intentional_mystery",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "deliberately concealed their face"
+          },
+          {
+            "path": "examples/manuscript/04.md",
+            "text": "Wren was the alias"
+          }
+        ]
+      },
+      {
+        "id": "bell",
+        "classification": "author_question",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "might have dreamed it"
+          }
+        ]
+      }
+    ]
+  },
+  "prefix": {
+    "read": [
+      "examples/manuscript/01.md",
+      "examples/manuscript/02.md"
+    ],
+    "unread": [
+      "examples/manuscript/03.md",
+      "examples/manuscript/04.md"
+    ],
+    "cases": [
+      {
+        "id": "key",
+        "classification": "contradiction",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "only brass key in her left"
+          },
+          {
+            "path": "examples/manuscript/02.md",
+            "text": "from her right coat pocket"
+          }
+        ]
+      },
+      {
+        "id": "coat",
+        "classification": "explained_change",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "Ivo wore a red coat"
+          },
+          {
+            "path": "examples/manuscript/02.md",
+            "text": "replaced it with a blue coat"
+          }
+        ]
+      },
+      {
+        "id": "identity",
+        "classification": "intentional_mystery",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "deliberately concealed their face"
+          }
+        ]
+      },
+      {
+        "id": "bell",
+        "classification": "author_question",
+        "anchors": [
+          {
+            "path": "examples/manuscript/01.md",
+            "text": "might have dreamed it"
+          }
+        ]
+      }
+    ]
+  }
+}

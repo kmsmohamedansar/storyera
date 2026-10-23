@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img"><title>Four continuity audit outcomes</title>
+<rect width="1600" height="620" fill="#F6F2E9"/>
+<text x="65" y="45" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="48" font-weight="700" fill="#182C35">Not every difference is an error.</text>
+<rect x="65" y="145" width="715" height="180" rx="16" fill="#FFFFFF"/>
+<rect x="65" y="145" width="8" height="180" rx="3" fill="#A44F45"/>
+<text x="95" y="170" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#A44F45">01</text>
+<text x="152" y="167" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" fill="#182C35">Contradiction</text>
+<text x="95" y="227" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" fill="#52656C">Incompatible claims.</text>
+<text x="95" y="271" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#52656C">Cite both. Propose a repair.</text>
+<rect x="820" y="145" width="715" height="180" rx="16" fill="#FFFFFF"/>
+<rect x="820" y="145" width="8" height="180" rx="3" fill="#267C72"/>
+<text x="850" y="170" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#267C72">02</text>
+<text x="907" y="167" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" fill="#182C35">Explained change</text>
+<text x="850" y="227" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" fill="#52656C">A transition is supplied.</text>
+<text x="850" y="271" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#52656C">Preserve the explanation.</text>
+<rect x="65" y="360" width="715" height="180" rx="16" fill="#FFFFFF"/>
+<rect x="65" y="360" width="8" height="180" rx="3" fill="#70668D"/>
+<text x="95" y="385" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#70668D">03</text>
+<text x="152" y="382" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" fill="#182C35">Intentional mystery</text>
+<text x="95" y="442" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" fill="#52656C">Concealment is signaled.</text>
+<text x="95" y="486" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#52656C">Track clues and resolution.</text>
+<rect x="820" y="360" width="715" height="180" rx="16" fill="#FFFFFF"/>
+<rect x="820" y="360" width="8" height="180" rx="3" fill="#8A692F"/>
+<text x="850" y="385" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#8A692F">04</text>
+<text x="907" y="382" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="700" fill="#182C35">Author question</text>
+<text x="850" y="442" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" fill="#52656C">More than one reading fits.</text>
+<text x="850" y="486" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#52656C">Ask for a canon decision.</text>
+</svg>

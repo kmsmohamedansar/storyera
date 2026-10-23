@@ -1,0 +1,4 @@
+interface:
+  display_name: "Canonkeeper"
+  short_description: "Cited continuity audits for novels and series"
+  default_prompt: "Use $canonkeeper to audit these chapters in reading order without editing the manuscript."

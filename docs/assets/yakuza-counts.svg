@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="660" viewBox="0 0 1600 660" role="img"><title>YAKUZA continuity example: keep the two child cohorts separate</title>
+<rect width="1600" height="660" fill="#F6F2E9"/>
+<text x="65" y="40" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="46" font-weight="700" fill="#182C35">Two cohorts. One mistaken subtraction.</text>
+<text x="65" y="108" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#52656C">YAKUZA / VOLUMES ONE–THREE / SPOILER EXAMPLE</text>
+<rect x="65" y="170" width="710" height="260" rx="16" fill="#FFFFFF"/>
+<text x="97" y="194" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="100" font-weight="700" fill="#267C72">34</text>
+<text x="280" y="221" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#182C35">ALREADY SHIPPED</text>
+<text x="97" y="359" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" fill="#52656C">Earlier ledger / still missing</text>
+<rect x="825" y="170" width="710" height="260" rx="16" fill="#FFFFFF"/>
+<text x="857" y="194" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="100" font-weight="700" fill="#267C72">14</text>
+<text x="1040" y="221" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#182C35">NEWLY RESCUED</text>
+<text x="857" y="359" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="400" fill="#52656C">The next shipment / now safe</text>
+<rect x="65" y="470" width="1470" height="120" rx="14" fill="#182C35"/>
+<text x="95" y="497" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="39" font-weight="700" fill="#F6F2E9">48 accounted for = 34 missing + 14 rescued</text>
+<text x="95" y="550" dominant-baseline="text-before-edge" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#D2A65B">Unless the text explicitly establishes overlap between the groups.</text>
+</svg>

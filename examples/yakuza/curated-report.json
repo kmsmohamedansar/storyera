@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0",
+  "scope": {
+    "read": [
+      "examples/yakuza/excerpts.md"
+    ],
+    "unread": [],
+    "reading_order": [
+      "examples/yakuza/excerpts.md"
+    ],
+    "limitations": [
+      "Curated, post-audit documentation example; selected excerpts only, not a blind full-novel evaluation."
+    ],
+    "preservation": "not_hash_verified"
+  },
+  "ledger": [
+    {
+      "id": "F1",
+      "entity": "Separate cohorts conflated",
+      "fact": "“We don’t know. Gone. Shipped. On cargo ships out of Yokohama, to God knows where.” Tanabe’s voice cracked, just a little, for the first time since he’d known her. “But that’s not why I came to Tokyo.”",
+      "story_time": "Chapter Forty-Four: The Second Ledger",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Four: The Second Ledger",
+          "line_start": 17,
+          "line_end": 17,
+          "quote": "“We don’t know. Gone. Shipped. On cargo ships out of Yokohama, to God knows where.” Tanabe’s voice cracked, just a little, for the first time since he’d known her. “But that’s not why I came to Tokyo.”"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "entity": "Separate cohorts conflated",
+      "fact": "“We think it’s the next shipment.” She put the phone down. “We think there are children in it now. Today. Waiting.”",
+      "story_time": "Chapter Forty-Four: The Second Ledger",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Four: The Second Ledger",
+          "line_start": 23,
+          "line_end": 23,
+          "quote": "“We think it’s the next shipment.” She put the phone down. “We think there are children in it now. Today. Waiting.”"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "entity": "Separate cohorts conflated",
+      "fact": "Fourteen children. Between five and eleven. Huddled together on a pile of dirty blankets. Holding each other. Thin. Filthy. Some with tape still on their wrists.",
+      "story_time": "Chapter Forty-Seven: Forty-Seven",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Seven: Forty-Seven",
+          "line_start": 29,
+          "line_end": 29,
+          "quote": "Fourteen children. Between five and eleven. Huddled together on a pile of dirty blankets. Holding each other. Thin. Filthy. Some with tape still on their wrists."
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "entity": "Separate cohorts conflated",
+      "fact": "Fourteen of them were home now.",
+      "story_time": "Chapter Fifty-Three: Snow From Moscow",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Fifty-Three: Snow From Moscow",
+          "line_start": 35,
+          "line_end": 35,
+          "quote": "Fourteen of them were home now."
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "entity": "Separate cohorts conflated",
+      "fact": "Twenty were still out there. Somewhere. On the other side of an ocean.",
+      "story_time": "Chapter Fifty-Three: Snow From Moscow",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Fifty-Three: Snow From Moscow",
+          "line_start": 41,
+          "line_end": 41,
+          "quote": "Twenty were still out there. Somewhere. On the other side of an ocean."
+        }
+      ]
+    },
+    {
+      "id": "F6",
+      "entity": "Employment history resets",
+      "fact": "It was slow. Renji had given him a job of sorts: going through the receipts of the family’s three restaurants, looking for waste. Renji paid him the same as a junior clerk. Not a yen more. Arthur had insisted.",
+      "story_time": "Chapter Seventeen: Six Months of Borrowed Life",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Seventeen: Six Months of Borrowed Life",
+          "line_start": 47,
+          "line_end": 47,
+          "quote": "It was slow. Renji had given him a job of sorts: going through the receipts of the family’s three restaurants, looking for waste. Renji paid him the same as a junior clerk. Not a yen more. Arthur had insisted."
+        }
+      ]
+    },
+    {
+      "id": "F7",
+      "entity": "Employment history resets",
+      "fact": "Renji had stared at the spreadsheet. “How did you *see* that?”",
+      "story_time": "Chapter Seventeen: Six Months of Borrowed Life",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Seventeen: Six Months of Borrowed Life",
+          "line_start": 53,
+          "line_end": 53,
+          "quote": "Renji had stared at the spreadsheet. “How did you *see* that?”"
+        }
+      ]
+    },
+    {
+      "id": "F8",
+      "entity": "Employment history resets",
+      "fact": "Arthur wrote the first payment off the debt in his notebook. Forty-two thousand yen.",
+      "story_time": "Chapter Seventeen: Six Months of Borrowed Life",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Seventeen: Six Months of Borrowed Life",
+          "line_start": 59,
+          "line_end": 59,
+          "quote": "Arthur wrote the first payment off the debt in his notebook. Forty-two thousand yen."
+        }
+      ]
+    },
+    {
+      "id": "F9",
+      "entity": "Employment history resets",
+      "fact": "“Your desk,” said Renji. “Your computer. Your first job.”",
+      "story_time": "Chapter Twenty-Five: The Grid",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Twenty-Five: The Grid",
+          "line_start": 65,
+          "line_end": 65,
+          "quote": "“Your desk,” said Renji. “Your computer. Your first job.”"
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "entity": "Employment history resets",
+      "fact": "He had never been paid as *Asa*.",
+      "story_time": "Chapter Twenty-Five: The Grid",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Twenty-Five: The Grid",
+          "line_start": 77,
+          "line_end": 77,
+          "quote": "He had never been paid as *Asa*."
+        }
+      ]
+    },
+    {
+      "id": "F11",
+      "entity": "Pawn deadline wording conflicts",
+      "fact": "“But the redemption period had ended,” said Arthur.",
+      "story_time": "Chapter Twenty-Seven: The Pawnbroker",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Twenty-Seven: The Pawnbroker",
+          "line_start": 89,
+          "line_end": 89,
+          "quote": "“But the redemption period had ended,” said Arthur."
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "entity": "Pawn deadline wording conflicts",
+      "fact": "“No.” Mr Nakamura shook his head slowly. “It hadn’t. It was two days *after* the date. Two days. I’d have given it back to him. Happily.”",
+      "story_time": "Chapter Twenty-Seven: The Pawnbroker",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Twenty-Seven: The Pawnbroker",
+          "line_start": 95,
+          "line_end": 95,
+          "quote": "“No.” Mr Nakamura shook his head slowly. “It hadn’t. It was two days *after* the date. Two days. I’d have given it back to him. Happily.”"
+        }
+      ]
+    },
+    {
+      "id": "F13",
+      "entity": "Strength develops through training",
+      "fact": "His arms shook before the blade reached his shoulders.",
+      "story_time": "Chapter Eight: The Weight of Iron",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Eight: The Weight of Iron",
+          "line_start": 107,
+          "line_end": 107,
+          "quote": "His arms shook before the blade reached his shoulders."
+        }
+      ]
+    },
+    {
+      "id": "F14",
+      "entity": "Strength develops through training",
+      "fact": "Fourteen months of Kanda. Fourteen months of squats and planks and running laps of the garden in the dark. Fourteen months of eating every vegetable Cook Ono could find.",
+      "story_time": "Chapter Forty-Four: The Second Ledger",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Four: The Second Ledger",
+          "line_start": 113,
+          "line_end": 113,
+          "quote": "Fourteen months of Kanda. Fourteen months of squats and planks and running laps of the garden in the dark. Fourteen months of eating every vegetable Cook Ono could find."
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "entity": "Birthday is unspecified but ages can fit",
+      "fact": "“Your stepmother, Sayuri-sama. And your half-sister, Yui. She’s five.”",
+      "story_time": "Chapter Four: The House of Asakura",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Four: The House of Asakura",
+          "line_start": 119,
+          "line_end": 119,
+          "quote": "“Your stepmother, Sayuri-sama. And your half-sister, Yui. She’s five.”"
+        }
+      ]
+    },
+    {
+      "id": "F16",
+      "entity": "Birthday is unspecified but ages can fit",
+      "fact": "“Now I know.” His father closed his eyes. “And now I have a six-year-old daughter asleep upstairs.”",
+      "story_time": "Chapter Forty-Five: The Old Oath",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Five: The Old Oath",
+          "line_start": 125,
+          "line_end": 125,
+          "quote": "“Now I know.” His father closed his eyes. “And now I have a six-year-old daughter asleep upstairs.”"
+        }
+      ]
+    },
+    {
+      "id": "F17",
+      "entity": "Birthday is unspecified but ages can fit",
+      "fact": "“Asakura Asa, Yekaterina Viktorovna. Twenty years old. He is still recovering. He works in an office in Shinjuku. On Thursdays he sweeps the floor of a bar in Meguro. On Tuesdays he eats salmon with his family. His little sister is seven.”",
+      "story_time": "Chapter Fifty-Three: Snow From Moscow",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Fifty-Three: Snow From Moscow",
+          "line_start": 131,
+          "line_end": 131,
+          "quote": "“Asakura Asa, Yekaterina Viktorovna. Twenty years old. He is still recovering. He works in an office in Shinjuku. On Thursdays he sweeps the floor of a bar in Meguro. On Tuesdays he eats salmon with his family. His little sister is seven.”"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "I1",
+      "classification": "contradiction",
+      "confidence": "high",
+      "title": "Separate cohorts conflated",
+      "fact_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Four: The Second Ledger",
+          "line_start": 17,
+          "line_end": 17,
+          "quote": "“We don’t know. Gone. Shipped. On cargo ships out of Yokohama, to God knows where.” Tanabe’s voice cracked, just a little, for the first time since he’d known her. “But that’s not why I came to Tokyo.”"
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Four: The Second Ledger",
+          "line_start": 23,
+          "line_end": 23,
+          "quote": "“We think it’s the next shipment.” She put the phone down. “We think there are children in it now. Today. Waiting.”"
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Seven: Forty-Seven",
+          "line_start": 29,
+          "line_end": 29,
+          "quote": "Fourteen children. Between five and eleven. Huddled together on a pile of dirty blankets. Holding each other. Thin. Filthy. Some with tape still on their wrists."
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Fifty-Three: Snow From Moscow",
+          "line_start": 35,
+          "line_end": 35,
+          "quote": "Fourteen of them were home now."
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Fifty-Three: Snow From Moscow",
+          "line_start": 41,
+          "line_end": 41,
+          "quote": "Twenty were still out there. Somewhere. On the other side of an ocean."
+        }
+      ],
+      "reasoning": "The rescue concerns the next shipment, not established members of the already shipped group.",
+      "repair": "Keep 34 missing, or explicitly establish overlap and revise shipment status."
+    },
+    {
+      "id": "I2",
+      "classification": "contradiction",
+      "confidence": "high",
+      "title": "Employment history resets",
+      "fact_ids": [
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ],
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Seventeen: Six Months of Borrowed Life",
+          "line_start": 47,
+          "line_end": 47,
+          "quote": "It was slow. Renji had given him a job of sorts: going through the receipts of the family’s three restaurants, looking for waste. Renji paid him the same as a junior clerk. Not a yen more. Arthur had insisted."
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Seventeen: Six Months of Borrowed Life",
+          "line_start": 53,
+          "line_end": 53,
+          "quote": "Renji had stared at the spreadsheet. “How did you *see* that?”"
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Seventeen: Six Months of Borrowed Life",
+          "line_start": 59,
+          "line_end": 59,
+          "quote": "Arthur wrote the first payment off the debt in his notebook. Forty-two thousand yen."
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Twenty-Five: The Grid",
+          "line_start": 65,
+          "line_end": 65,
+          "quote": "“Your desk,” said Renji. “Your computer. Your first job.”"
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Twenty-Five: The Grid",
+          "line_start": 77,
+          "line_end": 77,
+          "quote": "He had never been paid as *Asa*."
+        }
+      ],
+      "reasoning": "Paid work and spreadsheet use predate the later first-job and first-pay claims.",
+      "repair": "Make it the first formal office posting and reconcile computer experience and pay."
+    },
+    {
+      "id": "I3",
+      "classification": "contradiction",
+      "confidence": "high",
+      "title": "Pawn deadline wording conflicts",
+      "fact_ids": [
+        "F11",
+        "F12"
+      ],
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Twenty-Seven: The Pawnbroker",
+          "line_start": 89,
+          "line_end": 89,
+          "quote": "“But the redemption period had ended,” said Arthur."
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Twenty-Seven: The Pawnbroker",
+          "line_start": 95,
+          "line_end": 95,
+          "quote": "“No.” Mr Nakamura shook his head slowly. “It hadn’t. It was two days *after* the date. Two days. I’d have given it back to him. Happily.”"
+        }
+      ],
+      "reasoning": "The reply denies expiry but places the return after the deadline.",
+      "repair": "Decide whether Asa was late or the watch was sold early."
+    },
+    {
+      "id": "I4",
+      "classification": "explained_change",
+      "confidence": "high",
+      "title": "Strength develops through training",
+      "fact_ids": [
+        "F13",
+        "F14"
+      ],
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Eight: The Weight of Iron",
+          "line_start": 107,
+          "line_end": 107,
+          "quote": "His arms shook before the blade reached his shoulders."
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Four: The Second Ledger",
+          "line_start": 113,
+          "line_end": 113,
+          "quote": "Fourteen months of Kanda. Fourteen months of squats and planks and running laps of the garden in the dark. Fourteen months of eating every vegetable Cook Ono could find."
+        }
+      ],
+      "reasoning": "The later training interval supplies a transition from weakness.",
+      "repair": "Preserve the training arc."
+    },
+    {
+      "id": "I5",
+      "classification": "author_question",
+      "confidence": "high",
+      "title": "Birthday is unspecified but ages can fit",
+      "fact_ids": [
+        "F15",
+        "F16",
+        "F17"
+      ],
+      "evidence": [
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Four: The House of Asakura",
+          "line_start": 119,
+          "line_end": 119,
+          "quote": "“Your stepmother, Sayuri-sama. And your half-sister, Yui. She’s five.”"
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Forty-Five: The Old Oath",
+          "line_start": 125,
+          "line_end": 125,
+          "quote": "“Now I know.” His father closed his eyes. “And now I have a six-year-old daughter asleep upstairs.”"
+        },
+        {
+          "path": "examples/yakuza/excerpts.md",
+          "chapter": "Chapter Fifty-Three: Snow From Moscow",
+          "line_start": 131,
+          "line_end": 131,
+          "quote": "“Asakura Asa, Yekaterina Viktorovna. Twenty years old. He is still recovering. He works in an office in Shinjuku. On Thursdays he sweeps the floor of a bar in Meguro. On Tuesdays he eats salmon with his family. His little sister is seven.”"
+        }
+      ],
+      "reasoning": "A birthday after June and before December reconciles these ages; no contradiction is established.",
+      "repair": "Only ask for an exact birthday if dated scenes require it."
+    }
+  ]
+}
