@@ -8,6 +8,20 @@
 
 No MCP server, model SDK, API key, or web application is required by this package. Your existing agent reads the instructions and performs the audit. Optional Python utilities validate saved reports; they do **not** audit prose themselves. Instruction-only does not mean your agent runs offline.
 
+## Is it a model, an agent, or a plugin?
+
+StoryEra is an **Agent Skill**: a reusable playbook for your existing AI. Your model reads and reasons, Codex or Claude Code provides file access and tools, and StoryEra supplies the continuity-auditing method. It does not train or install another model. The current repository is a standalone skill, not a published plugin; no plugin installation is required.
+
+Clone or download this repository, then install the complete `skills/storyera/` folder. Cloning alone does not activate it.
+
+| Local setup | Codex | Claude Code |
+| --- | --- | --- |
+| One manuscript project | `your-novel/.agents/skills/storyera/` | `your-novel/.claude/skills/storyera/` |
+| Across your projects | `~/.agents/skills/storyera/` | `~/.claude/skills/storyera/` |
+| Invoke | `$storyera` | `/storyera` |
+
+See the [step-by-step installation guide](docs/installation.md) for both hosts. These locations follow [official OpenAI guidance](https://learn.chatgpt.com/docs/build-skills) and [Claude Code documentation](https://code.claude.com/docs/en/skills), checked October 23, 2026. The saved behavioral evaluations were run in Codex; Claude Code installation guidance is documentation-based, not a claimed Claude Code test run.
+
 ## A continuity error is not every surprising detail
 
 <img src="docs/assets/classifications.png" alt="Four outcomes: contradiction, explained change, intentional mystery, or author question" width="1000">
@@ -19,7 +33,7 @@ No MCP server, model SDK, API key, or web application is required by this packag
 | Intentional mystery | A concealed identity has a signaled later reveal. | Track the clue; disclose whether the resolution was read. |
 | Author question | A montage has two plausible chronologies. | Ask which interpretation is intended. |
 
-## Quick start
+## Quick start in Codex
 
 Clone this repository, then copy the **whole** skill folder into your novel project. Replace the destination with your actual path. The subshell refuses an existing installation, including a dangling symlink.
 

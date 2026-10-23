@@ -6,6 +6,8 @@ Supply Markdown chapters, reading order, and author canon. Distinguish drafting 
 
 ## Copyable prompts
 
+The examples below use Codex's `$storyera` syntax. In Claude Code, start the request with `/storyera` instead, followed by the same audit instructions. See [installation](installation.md) for both hosts' local setup paths.
+
 ### First audit
 
 > Use $storyera to audit chapters/01.md, chapters/02.md, and chapters/03.md in that order. Build a cited ledger. Separate contradictions, explained changes, intentional mysteries, and author questions. Include confidence and minimal repairs. Do not edit the manuscript. Verify its hashes before and after if tools are available.
