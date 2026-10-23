@@ -1,12 +1,12 @@
 ---
-name: canonkeeper
+name: storyera
 description: Audit novels and series for continuity using a cited fact ledger. Use for chapter consistency, chronology, character knowledge, identities, objects, counts, and unresolved plot threads; distinguish contradictions from mysteries, explained changes, and author questions. Propose repairs without editing the manuscript.
 license: MIT
 metadata:
   version: "0.1.0"
 ---
 
-# Canonkeeper
+# StoryEra
 
 Audit the supplied story as written, preserving the author's control over canon and repairs.
 

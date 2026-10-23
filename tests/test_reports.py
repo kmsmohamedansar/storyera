@@ -112,15 +112,15 @@ class PackageTests(unittest.TestCase):
             self.assertEqual(a.read_bytes(),b.read_bytes())
             with zipfile.ZipFile(a) as archive:
                 names=archive.namelist()
-                self.assertIn('canonkeeper/SKILL.md',names); self.assertIn('canonkeeper/LICENSE',names)
-                self.assertTrue(all(n.startswith('canonkeeper/') for n in names))
+                self.assertIn('storyera/SKILL.md',names); self.assertIn('storyera/LICENSE',names)
+                self.assertTrue(all(n.startswith('storyera/') for n in names))
                 self.assertFalse(any('yakuza' in n or 'evals' in n for n in names))
     def test_skill_frontmatter_and_references(self):
-        text=(ROOT/'skills/canonkeeper/SKILL.md').read_text()
-        self.assertTrue(text.startswith('---\nname: canonkeeper\n')); self.assertNotIn('[TODO:',text)
+        text=(ROOT/'skills/storyera/SKILL.md').read_text()
+        self.assertTrue(text.startswith('---\nname: storyera\n')); self.assertNotIn('[TODO:',text)
         for target in re.findall(r'\]\((references/[^)]+)\)',text):
-            self.assertTrue((ROOT/'skills/canonkeeper'/target).is_file())
-        self.assertEqual((ROOT/'skills/canonkeeper/LICENSE').read_text().strip(),(ROOT/'LICENSE').read_text().split('Scope exception:')[0].strip())
+            self.assertTrue((ROOT/'skills/storyera'/target).is_file())
+        self.assertEqual((ROOT/'skills/storyera/LICENSE').read_text().strip(),(ROOT/'LICENSE').read_text().split('Scope exception:')[0].strip())
     def test_documentation_local_links(self):
         for path in ROOT.rglob('*.md'):
             text=re.sub(r'```.*?```','',path.read_text(),flags=re.S)

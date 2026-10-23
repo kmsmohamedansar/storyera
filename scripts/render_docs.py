@@ -44,10 +44,10 @@ class Canvas:
 
 
 def render():
-    c=Canvas('banner',560,'Canonkeeper: continuity notes with receipts',INK)
+    c=Canvas('banner',560,'StoryEra: continuity notes with receipts',INK)
     c.text(80,62,'AN AGENT SKILL FOR NOVEL CONTINUITY',22,GOLD,True)
-    c.text(76,132,'canonkeeper',100,PAPER,True)
-    c.text(82,274,'Keep the story.',46,PAPER)
+    c.text(76,132,'StoryEra',100,PAPER,True)
+    c.text(82,274,'Your story. Your era.',46,PAPER)
     c.text(82,336,'Catch the contradiction.',46,PAPER)
     c.text(83,462,'CITED FACTS   /   CLEAR CLASSIFICATIONS   /   AUTHOR CONTROL',19,GOLD,True)
     # A book and a connected ledger, drawn as original graphics.
@@ -69,7 +69,7 @@ def render():
         c.text(x+30,y+25,num,22,color,True); c.text(x+87,y+22,title,32,bold=True)
         c.text(x+30,y+82,a,26,MUTED);c.text(x+30,y+126,b,25,MUTED)
     c.save()
-    c=Canvas('workflow',470,'The Canonkeeper audit workflow')
+    c=Canvas('workflow',470,'The StoryEra audit workflow')
     c.text(65,42,'From chapter text to reviewable notes.',46,bold=True)
     data=[('01','Scope','Order + hashes'),('02','Read','Full passages'),('03','Ledger','Facts + citations'),('04','Reconcile','Later evidence'),('05','Report','Labels + repairs')]
     for i,(num,title,sub) in enumerate(data):

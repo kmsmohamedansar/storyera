@@ -4,11 +4,11 @@ Start a fresh context with only the installed skill and the allowed manuscript f
 
 ## Full
 
-> Use $canonkeeper to audit examples/manuscript/01.md through examples/manuscript/04.md in that order. Return the JSON contract from references/report-format.md. Cover continuity issues and important reconciled or uncertain details. Save the report outside the manuscript directory. Do not modify the manuscript.
+> Use $storyera to audit examples/manuscript/01.md through examples/manuscript/04.md in that order. Return the JSON contract from references/report-format.md. Cover continuity issues and important reconciled or uncertain details. Save the report outside the manuscript directory. Do not modify the manuscript.
 
 ## Prefix
 
-> Use $canonkeeper to audit only examples/manuscript/01.md and examples/manuscript/02.md, in that order. Chapters 03 and 04 exist but must remain unread. Return the JSON contract, list the unread files, and save the report outside the manuscript directory. Do not modify the manuscript.
+> Use $storyera to audit only examples/manuscript/01.md and examples/manuscript/02.md, in that order. Chapters 03 and 04 exist but must remain unread. Return the JSON contract, list the unread files, and save the report outside the manuscript directory. Do not modify the manuscript.
 
 ## Manual rubric
 

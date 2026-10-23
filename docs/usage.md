@@ -8,19 +8,19 @@ Supply Markdown chapters, reading order, and author canon. Distinguish drafting 
 
 ### First audit
 
-> Use $canonkeeper to audit chapters/01.md, chapters/02.md, and chapters/03.md in that order. Build a cited ledger. Separate contradictions, explained changes, intentional mysteries, and author questions. Include confidence and minimal repairs. Do not edit the manuscript. Verify its hashes before and after if tools are available.
+> Use $storyera to audit chapters/01.md, chapters/02.md, and chapters/03.md in that order. Build a cited ledger. Separate contradictions, explained changes, intentional mysteries, and author questions. Include confidence and minimal repairs. Do not edit the manuscript. Verify its hashes before and after if tools are available.
 
 ### Character knowledge
 
-> Use $canonkeeper to check who learned the secret, when, from whom, and who could plausibly know it. Cite evidence and distinguish narrator facts from character guesses. Do not edit the manuscript.
+> Use $storyera to check who learned the secret, when, from whom, and who could plausibly know it. Cite evidence and distinguish narrator facts from character guesses. Do not edit the manuscript.
 
 ### Whole novel in batches
 
-> Use $canonkeeper to audit this novel in chapter order. Choose batches appropriate to your context. Retain a cited ledger and open questions. Revisit apparent contradictions after reading later resolutions. Disclose unread sections. Do not modify the novel.
+> Use $storyera to audit this novel in chapter order. Choose batches appropriate to your context. Retain a cited ledger and open questions. Revisit apparent contradictions after reading later resolutions. Disclose unread sections. Do not modify the novel.
 
 ### JSON output
 
-> Use $canonkeeper with its references/report-format.md contract. Save a JSON audit outside the manuscript directory. Use paths relative to the supplied source root, exact quotes, and 1-based inclusive line ranges. Do not modify the manuscript.
+> Use $storyera with its references/report-format.md contract. Save a JSON audit outside the manuscript directory. Use paths relative to the supplied source root, exact quotes, and 1-based inclusive line ranges. Do not modify the manuscript.
 
 ### Author intent
 

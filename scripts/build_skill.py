@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def build(output):
-    source = ROOT / "skills/canonkeeper"
+    source = ROOT / "skills/storyera"
     output = Path(output).resolve()
     if source.resolve() in output.parents:
         raise ValueError("Output must be outside the skill folder.")
@@ -22,7 +22,7 @@ def build(output):
         for path in files:
             if "__pycache__" in path.parts or path.name.startswith("."):
                 continue
-            info = zipfile.ZipInfo("canonkeeper/" + str(path.relative_to(source)), date_time=(2026, 10, 23, 0, 0, 0))
+            info = zipfile.ZipInfo("storyera/" + str(path.relative_to(source)), date_time=(2026, 10, 23, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
             archive.writestr(info, path.read_bytes())

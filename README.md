@@ -1,6 +1,6 @@
-<p align="center"><img src="docs/assets/banner.png" alt="Canonkeeper — keep the story, catch the contradiction" width="1000"></p>
+<p align="center"><img src="docs/assets/banner.png" alt="StoryEra — your story, your era" width="1000"></p>
 
-# canonkeeper
+# StoryEra
 
 **Continuity notes with receipts.** An instruction-only Agent Skill for novels and series. Give your agent Markdown chapters; it builds a cited fact ledger, separates contradictions from mysteries and explained changes, and suggests repairs without editing your manuscript.
 
@@ -24,22 +24,22 @@ No MCP server, model SDK, API key, or web application is required by this packag
 Clone this repository, then copy the **whole** skill folder into your novel project. Replace the destination with your actual path. The subshell refuses an existing installation, including a dangling symlink.
 
 ```sh
-git clone https://github.com/kmsmohamedansar/canonkeeper.git
-cd canonkeeper
+git clone https://github.com/kmsmohamedansar/storyera.git
+cd storyera
 (
-  destination="/absolute/path/to/your-novel/.agents/skills/canonkeeper"
+  destination="/absolute/path/to/your-novel/.agents/skills/storyera"
   if [ -e "$destination" ] || [ -L "$destination" ]; then
     echo "An installation already exists; review it before updating." >&2
     exit 1
   fi
   mkdir -p "$(dirname "$destination")"
-  cp -R skills/canonkeeper "$destination"
+  cp -R skills/storyera "$destination"
 )
 ```
 
 Open the novel project in Codex and ask:
 
-> Use $canonkeeper to audit chapters/01.md through chapters/08.md in that order. Build a cited fact ledger. Separate contradictions, explained changes, intentional mysteries, and author questions. Suggest repairs without modifying the manuscript.
+> Use $storyera to audit chapters/01.md through chapters/08.md in that order. Build a cited fact ledger. Separate contradictions, explained changes, intentional mysteries, and author questions. Suggest repairs without modifying the manuscript.
 
 See [installation](docs/installation.md) for personal installation and discovery checks. Local paths follow [official OpenAI guidance](https://learn.chatgpt.com/docs/build-skills), checked October 23, 2026.
 
@@ -59,7 +59,7 @@ The [case study](docs/case-study.md) includes exact, source-numbered excerpts, r
 
 <img src="docs/assets/workflow.png" alt="Scope and preserve, read in order, build fact ledger, reconcile later evidence, classify and propose repairs" width="1000">
 
-The instructions live in [SKILL.md](skills/canonkeeper/SKILL.md). The [JSON contract](skills/canonkeeper/references/report-format.md) supports saved reports. Core instructions are provider-neutral; `agents/openai.yaml` adds optional Codex display metadata.
+The instructions live in [SKILL.md](skills/storyera/SKILL.md). The [JSON contract](skills/storyera/references/report-format.md) supports saved reports. Core instructions are provider-neutral; `agents/openai.yaml` adds optional Codex display metadata.
 
 ## Try the small fictional sample
 
@@ -77,7 +77,7 @@ The grader checks structure, quotes, line ranges, scope, and seeded classificati
 ## Repository map
 
 ```text
-skills/canonkeeper/       Copy this folder to install
+skills/storyera/       Copy this folder to install
 docs/                    Installation, usage, origin, case study, evaluation
 docs/assets/             Original PNG diagrams and SVG sources
 examples/manuscript/     Fictional regression manuscript (MIT)

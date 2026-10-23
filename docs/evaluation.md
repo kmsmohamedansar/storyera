@@ -10,7 +10,7 @@
 
 ## Reproduce a blind run
 
-1. Start a fresh agent context. Supply only `skills/canonkeeper/` and the permitted chapters from `examples/manuscript/`.
+1. Start a fresh agent context. Supply only `skills/storyera/` and the permitted chapters from `examples/manuscript/`.
 2. Use the full or prefix prompt in [evals/prompts.md](../evals/prompts.md). For prefix testing, physically withhold Chapters 03 and 04, but name them as unread files.
 3. Record SHA-256 before the audit. Save the JSON report and independently recompute hashes afterward. Do not change the manuscript.
 4. Only after the report is saved, expose `evals/expected.json`, tests and earlier reports. Run the grader, then manually review reasoning and repair quality.

@@ -1,8 +1,8 @@
-# How Canonkeeper was created
+# How StoryEra was created
 
 ## The actual sequence
 
-1. The author supplied a README-style proposal for `canonkeeper`: an instruction-only continuity workflow with citations, classifications, manuscript preservation and offline evaluation. No installed `SKILL.md` or implementation was supplied in that exchange.
+1. The author supplied a README-style proposal for `canonkeeper` (the original name): an instruction-only continuity workflow with citations, classifications, manuscript preservation and offline evaluation. No installed `SKILL.md` or implementation was supplied in that exchange.
 2. The author supplied _YAKUZA: The Borrowed Life_, Volumes One–Three: a prologue and 53 chapters, approximately 75,600 words. The agent read it in sections, checked conflicts and later explanations, and returned an audit. Its before/after SHA-256 matched.
 3. That demonstration did **not** test an installed skill or grader and produced no measured accuracy score. The author then requested a repository, illustrations and documentation, and chose public visibility.
 4. This repository turns the workflow into an actual `SKILL.md`, references and optional Codex metadata. The agent performs the reading; the Python grader only evaluates saved output.
@@ -29,3 +29,7 @@ Define the outcome and task boundary. Write discriminating frontmatter, then the
 The structure follows the [Agent Skills specification](https://agentskills.io/specification). Discovery and optional Codex metadata follow [official OpenAI documentation](https://learn.chatgpt.com/docs/build-skills), checked October 23, 2026. The metadata was initialized with Codex's built-in skill-creator helper.
 
 No comprehensive literary benchmark, multi-model comparison, exhaustive novel-wide recall measurement, or independent expert adjudication is claimed. Tooling tests are not evidence of model reading ability. See the separate fictional-sample run status in [evaluation](evaluation.md).
+
+## Renamed to StoryEra
+
+The author chose **StoryEra** after the initial public release. The repository, installable folder and invocation are now `storyera` and `$storyera`. The saved October 23 behavioral reports and hash records remain unchanged under their original Canonkeeper name; renaming is not presented as a new behavioral evaluation. Git history preserves the original implementation.
