@@ -4,7 +4,7 @@
 
 **Continuity notes with receipts.** An instruction-only Agent Skill for novels and series. Give your agent Markdown chapters; it builds a cited fact ledger, separates contradictions from mysteries and explained changes, and suggests repairs without editing your manuscript.
 
-[Install](docs/installation.md) · [Use it](docs/usage.md) · [Real novel examples](docs/case-study.md) · [How it was created](docs/creation.md) · [Evaluation](docs/evaluation.md)
+[Install](docs/installation.md) · [Use it](docs/usage.md) · [Real novel examples](docs/case-study.md) · [How it was created](docs/creation.md) · [Evaluation](docs/evaluation.md) · [Tool comparison](docs/tool-comparison.md)
 
 No MCP server, model SDK, API key, or web application is required by this package. Your existing agent reads the instructions and performs the audit. Optional Python utilities validate saved reports; they do **not** audit prose themselves. Instruction-only does not mean your agent runs offline.
 

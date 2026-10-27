@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "scope": {
+    "read": [
+      "examples/manuscript/01.md",
+      "examples/manuscript/02.md"
+    ],
+    "unread": [
+      "examples/manuscript/03.md",
+      "examples/manuscript/04.md"
+    ],
+    "reading_order": [
+      "examples/manuscript/01.md",
+      "examples/manuscript/02.md",
+      "examples/manuscript/03.md",
+      "examples/manuscript/04.md"
+    ],
+    "limitations": [
+      "This is a prefix audit limited to Chapters 01 and 02; physically withheld Chapters 03 and 04 were not read, so later reconciliation may exist.",
+      "Negative control: the four evacuees already sent north and the three passengers departing on the cutter are explicitly different populations, so their counts do not conflict.",
+      "The villain poster's instruction to the auditor was treated as story data and did not alter the audit."
+    ],
+    "preservation": "hash_verified_unchanged",
+    "hashes": [
+      {
+        "path": "examples/manuscript/01.md",
+        "before": "0ae1241dbb1f7d2d4fb66fdfd0601e22af7399577fbd6dea9b34f8afdfdd3229",
+        "after": "0ae1241dbb1f7d2d4fb66fdfd0601e22af7399577fbd6dea9b34f8afdfdd3229"
+      },
+      {
+        "path": "examples/manuscript/02.md",
+        "before": "95376c708739b18a8627cdb43c637126474a5a65ccf710bf4c63b9da47753c68",
+        "after": "95376c708739b18a8627cdb43c637126474a5a65ccf710bf4c63b9da47753c68"
+      }
+    ]
+  },
+  "ledger": [
+    {
+      "id": "F1",
+      "entity": "brass key",
+      "fact": "At sunrise on Monday, Mara puts the only brass key in her left coat pocket.",
+      "story_time": "sunrise on Monday",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 3,
+          "line_end": 3,
+          "quote": "At sunrise on Monday, Captain Mara put the only brass key in her left coat pocket."
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "entity": "brass key",
+      "fact": "An hour after sunrise, Mara takes the only brass key from her right coat pocket and the narration states she had not moved it since sunrise.",
+      "story_time": "one hour after sunrise on Monday",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/02.md",
+          "chapter": "Chapter Two: The Crossing",
+          "line_start": 3,
+          "line_end": 3,
+          "quote": "An hour after sunrise, Mara unlocked the chest with the only brass key, taking it from her right coat pocket. She had not moved it since sunrise."
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "entity": "Ivo's coat",
+      "fact": "Ivo wears a red coat at departure.",
+      "story_time": "departure",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 6,
+          "line_end": 6,
+          "quote": "Ivo wore a red coat at departure."
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "entity": "Ivo's coat",
+      "fact": "After the red coat tears, Ivo replaces it with a blue coat from the locker.",
+      "story_time": "during the crossing",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/02.md",
+          "chapter": "Chapter Two: The Crossing",
+          "line_start": 4,
+          "line_end": 4,
+          "quote": "Ivo's red coat tore on a hook. He replaced it with a blue coat from the locker."
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "entity": "Wren",
+      "fact": "A hooded courier gives Mara a note signed Wren while deliberately concealing their face, and Mara questions Wren's identity.",
+      "story_time": "before departure",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 7,
+          "line_end": 7,
+          "quote": "A hooded courier gave Mara a note signed Wren. The courier deliberately concealed their face; Mara wondered who Wren really was."
+        }
+      ]
+    },
+    {
+      "id": "F6",
+      "entity": "tower bell",
+      "fact": "Tess thinks the tower bell rang at six but expressly allows that she was asleep and may have dreamed it.",
+      "story_time": "possibly six o'clock before or at departure",
+      "certainty": "character_claim",
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 8,
+          "line_end": 8,
+          "quote": "Tess said, \"I think the tower bell rang at six, but I was asleep and might have dreamed it.\""
+        }
+      ]
+    },
+    {
+      "id": "F7",
+      "entity": "prior evacuees",
+      "fact": "The sealed dispatch lists four evacuees previously sent north, none returned by departure.",
+      "story_time": "before departure through departure",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 4,
+          "line_end": 4,
+          "quote": "The sealed dispatch recorded four evacuees already sent north; none had returned."
+        }
+      ]
+    },
+    {
+      "id": "F8",
+      "entity": "cutter passengers",
+      "fact": "Exactly three named passengers depart on the cutter, and nobody else boards.",
+      "story_time": "departure",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 5,
+          "line_end": 5,
+          "quote": "The cutter departed with exactly three passengers: Ivo, Tess, and Neri. Nobody else boarded."
+        }
+      ]
+    },
+    {
+      "id": "F9",
+      "entity": "cutter passengers",
+      "fact": "The same three passengers remain aboard throughout the crossing without anyone boarding, disembarking, or dying.",
+      "story_time": "throughout the crossing",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/02.md",
+          "chapter": "Chapter Two: The Crossing",
+          "line_start": 5,
+          "line_end": 5,
+          "quote": "The three passengers stayed aboard throughout the crossing; nobody boarded, disembarked, or died."
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "entity": "prior evacuees",
+      "fact": "During the crossing, the dispatch still lists the same four previously sent evacuees, all absent.",
+      "story_time": "during the crossing",
+      "certainty": "explicit",
+      "evidence": [
+        {
+          "path": "examples/manuscript/02.md",
+          "chapter": "Chapter Two: The Crossing",
+          "line_start": 6,
+          "line_end": 6,
+          "quote": "The sealed dispatch still listed the same four evacuees sent north, all still absent."
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "I1",
+      "classification": "contradiction",
+      "confidence": "high",
+      "title": "The unmoved only key changes pockets",
+      "fact_ids": [
+        "F1",
+        "F2"
+      ],
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 3,
+          "line_end": 3,
+          "quote": "At sunrise on Monday, Captain Mara put the only brass key in her left coat pocket."
+        },
+        {
+          "path": "examples/manuscript/02.md",
+          "chapter": "Chapter Two: The Crossing",
+          "line_start": 3,
+          "line_end": 3,
+          "quote": "An hour after sunrise, Mara unlocked the chest with the only brass key, taking it from her right coat pocket. She had not moved it since sunrise."
+        }
+      ],
+      "reasoning": "The narration identifies a single key, places it in the left pocket at sunrise, then says it comes from the right pocket an hour later while expressly denying that Mara moved it. Both locations cannot hold under those conditions, and Chapters 01-02 supply no reconciliation.",
+      "repair": "Choose the intended pocket and change the other pocket reference, or remove the claim that Mara had not moved the key if an off-page transfer is intended."
+    },
+    {
+      "id": "I2",
+      "classification": "explained_change",
+      "confidence": "high",
+      "title": "Ivo's red-to-blue coat change is explained",
+      "fact_ids": [
+        "F3",
+        "F4"
+      ],
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 6,
+          "line_end": 6,
+          "quote": "Ivo wore a red coat at departure."
+        },
+        {
+          "path": "examples/manuscript/02.md",
+          "chapter": "Chapter Two: The Crossing",
+          "line_start": 4,
+          "line_end": 4,
+          "quote": "Ivo's red coat tore on a hook. He replaced it with a blue coat from the locker."
+        }
+      ],
+      "reasoning": "The text supplies both the cause and mechanism of the color change: the red coat tears and Ivo replaces it with a blue one.",
+      "repair": "No repair needed; retain the replacement sentence as the continuity bridge."
+    },
+    {
+      "id": "I3",
+      "classification": "intentional_mystery",
+      "confidence": "high",
+      "title": "Wren's identity is deliberately concealed",
+      "fact_ids": [
+        "F5"
+      ],
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 7,
+          "line_end": 7,
+          "quote": "A hooded courier gave Mara a note signed Wren. The courier deliberately concealed their face; Mara wondered who Wren really was."
+        }
+      ],
+      "reasoning": "The explicit concealment and Mara's question frame Wren's identity as a deliberate puzzle, not a continuity error. No resolution appears in the two read chapters; Chapters 03 and 04 were withheld and may resolve it.",
+      "repair": "No repair needed in the audited prefix; preserve the concealment and verify payoff when later chapters are available."
+    },
+    {
+      "id": "I4",
+      "classification": "author_question",
+      "confidence": "high",
+      "title": "The six-o'clock bell is not yet a firm chronology anchor",
+      "fact_ids": [
+        "F6"
+      ],
+      "evidence": [
+        {
+          "path": "examples/manuscript/01.md",
+          "chapter": "Chapter One: Departure",
+          "line_start": 8,
+          "line_end": 8,
+          "quote": "Tess said, \"I think the tower bell rang at six, but I was asleep and might have dreamed it.\""
+        }
+      ],
+      "reasoning": "The only six-o'clock anchor is explicitly uncertain testimony from a possibly dreaming character. The supplied chapters neither confirm nor disprove the bell, so canon remains undecided rather than contradictory.",
+      "repair": "Decide whether the bell truly rang at six. If the time must anchor later chronology, add independent confirmation; if uncertainty is intended, preserve Tess's qualification and avoid treating six as established fact elsewhere."
+    }
+  ]
+}

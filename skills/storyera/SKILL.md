@@ -36,6 +36,8 @@ For each apparent mismatch, check subsequent explanations, passage of time, owne
 
 Do not label every unexplained event an intentional mystery. A surprising age, a false claim, heightened action, an off-page event, or an external-world concern is not automatically a contradiction. Distinguish internal consistency from historical, legal, medical, or geographical fact-checking; research those only when in scope.
 
+When an important chronology or continuity anchor rests on explicitly uncertain testimony (for example, a speaker says they may have dreamed it), keep the uncertainty in the ledger **and** emit an `author_question` finding unless supplied evidence resolves it. A ledger entry alone does not surface the canon decision the author may need to make. Do not turn immaterial uncertainty into a finding; explain briefly when an uncertain detail is intentionally omitted as inconsequential.
+
 ## Deliver the audit
 
 - State reviewed and unread scope and preservation status.

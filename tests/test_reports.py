@@ -97,6 +97,27 @@ class ReportTests(unittest.TestCase):
         self.assertEqual([],grade.grade(full,'full'))
         self.assertEqual([],grade.validate(prefix))
         self.assertEqual(['Expected exactly one match for bell; got 0.'],grade.grade(prefix,'prefix'))
+
+    def test_prefix_uncertainty_requires_author_question(self):
+        """Keep the known prefix miss explicit: uncertainty is not a finding."""
+        folder=ROOT/'evals/baselines/2026-10-23'
+        prefix=json.loads((folder/'prefix.json').read_text())
+        bell_text='might have dreamed it'
+        bell_evidence=[e for e in prefix['ledger'] if e['entity'] == 'Tess / tower bell'][0]['evidence']
+        self.assertTrue(any(bell_text in e['quote'] for e in bell_evidence))
+        self.assertFalse(any(f['classification'] == 'author_question' and any(bell_text in e['quote'] for e in f['evidence']) for f in prefix['findings']))
+        self.assertEqual(['Expected exactly one match for bell; got 0.'], grade.grade(prefix, 'prefix'))
+
+    def test_updated_prefix_detects_uncertainty_question(self):
+        folder=ROOT/'evals/baselines/2026-10-27'
+        prefix=json.loads((folder/'prefix.json').read_text())
+        self.assertEqual([], grade.grade(prefix, 'prefix'))
+        bell=[f for f in prefix['findings'] if f['classification'] == 'author_question' and any('might have dreamed it' in e['quote'] for e in f['evidence'])]
+        self.assertEqual(1, len(bell))
+        hashes=json.loads((folder/'prefix-hashes.json').read_text())
+        self.assertEqual(hashes['before'], hashes['after'])
+        for path, digest in hashes['after'].items():
+            self.assertEqual(digest, hashlib.sha256((ROOT/path).read_bytes()).hexdigest())
     def test_saved_source_hashes(self):
         for name in ('full','prefix'):
             report=json.loads((ROOT/f'evals/baselines/2026-10-23/{name}.json').read_text())
@@ -118,6 +139,7 @@ class PackageTests(unittest.TestCase):
     def test_skill_frontmatter_and_references(self):
         text=(ROOT/'skills/storyera/SKILL.md').read_text()
         self.assertTrue(text.startswith('---\nname: storyera\n')); self.assertNotIn('[TODO:',text)
+        self.assertIn('A ledger entry alone does not surface the canon decision',text)
         for target in re.findall(r'\]\((references/[^)]+)\)',text):
             self.assertTrue((ROOT/'skills/storyera'/target).is_file())
         self.assertEqual((ROOT/'skills/storyera/LICENSE').read_text().strip(),(ROOT/'LICENSE').read_text().split('Scope exception:')[0].strip())

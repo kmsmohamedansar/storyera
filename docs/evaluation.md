@@ -41,3 +41,9 @@ The full audit found the three seeded contradictions and the three reconciled/un
 The prefix report passes contract and evidence validation, but **fails the seeded scenario**: it records Tess's uncertain bell recollection in the ledger without emitting the required `author_question` finding. Its contradiction, coat change, and unresolved identity mystery match the fixture. The report is retained unchanged; the fixture requirement is not relaxed. This is an observed coverage shortfall, not an all-pass result.
 
 CI checks the saved reports' evidence and asserts these recorded scenario outcomes in regression tests. It does not misrepresent the known prefix failure as a model pass. This small demonstration establishes no accuracy percentage for general novel auditing.
+
+## Focused prefix regression — October 27, 2026
+
+The skill now states that an important chronology or continuity anchor based on explicitly uncertain testimony must appear both in the ledger and as an `author_question` unless supplied evidence resolves it. The original October 23 report remains unchanged as evidence of the miss.
+
+A new fresh-context prefix run received only the updated skill and physically isolated Chapters 01–02. Expected fixtures, tests, earlier reports, later chapters, and the parent conversation were withheld. The saved [October 27 report](../evals/baselines/2026-10-27/README.md) passes contract, evidence, and seeded-scenario grading: all four prefix cases are detected, including Tess's bell recollection as an `author_question`. Source hashes remained unchanged. This single focused rerun shows the seeded regression is repaired on this sample; it does not establish general recall or cross-model performance.

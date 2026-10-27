@@ -1,0 +1,10 @@
+{
+  "before": {
+    "examples/manuscript/01.md": "0ae1241dbb1f7d2d4fb66fdfd0601e22af7399577fbd6dea9b34f8afdfdd3229",
+    "examples/manuscript/02.md": "95376c708739b18a8627cdb43c637126474a5a65ccf710bf4c63b9da47753c68"
+  },
+  "after": {
+    "examples/manuscript/01.md": "0ae1241dbb1f7d2d4fb66fdfd0601e22af7399577fbd6dea9b34f8afdfdd3229",
+    "examples/manuscript/02.md": "95376c708739b18a8627cdb43c637126474a5a65ccf710bf4c63b9da47753c68"
+  }
+}
