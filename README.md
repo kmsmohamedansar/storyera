@@ -2,6 +2,8 @@
 
 # StoryEra
 
+[![Checks](https://github.com/kmsmohamedansar/storyera/actions/workflows/checks.yml/badge.svg)](https://github.com/kmsmohamedansar/storyera/actions/workflows/checks.yml)
+
 **Continuity notes with receipts.** An instruction-only Agent Skill for novels and series. Give your agent Markdown chapters; it builds a cited fact ledger, separates contradictions from mysteries and explained changes, and suggests repairs without editing your manuscript.
 
 [Install](docs/installation.md) · [Use it](docs/usage.md) · [Real novel examples](docs/case-study.md) · [How it was created](docs/creation.md) · [Evaluation](docs/evaluation.md) · [Tool comparison](docs/tool-comparison.md)
@@ -21,6 +23,13 @@ Clone or download this repository, then install the complete `skills/storyera/` 
 | Invoke | `$storyera` | `/storyera` |
 
 See the [step-by-step installation guide](docs/installation.md) for both hosts. These locations follow [official OpenAI guidance](https://learn.chatgpt.com/docs/build-skills) and [Claude Code documentation](https://code.claude.com/docs/en/skills), checked October 23, 2026. The saved behavioral evaluations were run in Codex; Claude Code installation guidance is documentation-based, not a claimed Claude Code test run.
+
+| Host | Evidence |
+| --- | --- |
+| Codex | Recorded behavioral evaluations on the fictional sample. |
+| Claude Code | Installation guidance based on documentation; no recorded behavioral evaluation. |
+
+**Manuscript privacy:** Your agent and its provider determine where manuscript text and generated reports are processed or stored. Review their settings before using unpublished or sensitive work. Share only excerpts you have permission to disclose, and inspect saved reports before publishing them.
 
 ## A continuity error is not every surprising detail
 
